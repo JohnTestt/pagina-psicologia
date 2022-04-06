@@ -10,5 +10,5 @@
 <h2>👨‍💻 Projeto</h2>
 <p>  Esse projeto foi desenvolvido por mim, pensando em como criar um site bonito e responsivo, servindo como inspiração uma amiga que é psicóloga.</p>
 
-<h4>📸 <a href=""> Clique aqui para visualizar o site</a></h4>
+<h4>📸 <a href="https://johntestt.github.io/pagina-psicologia/"> Clique aqui para visualizar o site</a></h4>
 
