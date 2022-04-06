@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-image: linear-gradient(114deg, #f1f0f7, #9b63f796);
+   
+}
+
+
+header{
+    display:flex;
+    margin: auto;
+    justify-content: space-around; 
+    min-height: 95px;
+    align-items: center;
+    background-color: white;
+    
+
+}
+
+nav ul {
+display: flex;
+list-style-type: none;
+
+}
+li a{
+    font-size: 18px;
+    color: blueviolet;
+    padding: 16px;
+    text-decoration: none;  
+
+}
+
+header a:hover {
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.08);
+    border-radius: 8px;
+}
+    
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    justify-content: center;
+    
+
+}
+
+.itens-principal{
+    
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin: 12px;
+    min-width: 380px; 
+    margin-top: 125px;
+    
+}
+
+.itens-principal h2, p{
+    padding: 8px;
+    
+}
+.itens-principal h2{
+    color:blueviolet;
+}
+.itens-principal p{
+    margin-bottom: 15px;
+    
+}
+.botao{
+    width: 250px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border-radius: 6px;
+    padding-top: 15px;
+
+   
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;  
+}
+.botao:hover {
+    transform: scale(1.08);
+    
+
+}
+.rodape-inicial {
+    text-align: center;
+    margin-top: 100px;
+    background-color: blueviolet;
+    max-height: 80px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.img-celebro{
+    height: 60px;
+}
+
+#terapia {
+    margin-top: 100px;
+    align-items: center;
+    padding: 5px;
+   
+    
+
+}
+
+.text-terapia  p, h3{
+    padding-bottom: 25px;
+    text-align: start;
+    color: black;
+    
+   
+}
+.text-terapia h3{
+    color: blueviolet;
+    font-size: 22px;
+}
+.text-terapia p{
+font-family: sans-serif;
+font-size: 17px;
+
+}
+.text-terapia img{
+    max-height: 500px;
+}
+
+#sobre{
+    
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+     
+}
+
+.sobre-itens img{
+   max-width: 220px;
+    max-height: 220px;
+    border-radius: 120px;
+}
+
+.sobre-itens h3{
+    text-align: center;
+    color: blueviolet;
+    font-size: 22px;
+}
+
+.sobre-itens p{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.sobre-itens{
+    margin: 5px;
+}
+#sobre p::before{
+    content: ""; 
+    margin: 3px;
+    border: solid blueviolet 3px;
+    
+}
+
+.rodape{
+    display: flex;
+    margin-top: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    justify-content: space-around;
+    
+    
+}
+
+.rodape-itens h3{
+    color: white;
+    padding: 10px;
+    font-size: 28px;
+    font-family: 'Beau Rivage', cursive;
+    
+}
+
+
+.rodape-itens i{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.rodape-itens i:hover{
+    transform: scale(1.08);
+}
+
+.rodape-itens a{
+    color: white;
+    text-decoration: none;  
+}
+
+.rodape-itens p{
+    display: flex;
+}
+
