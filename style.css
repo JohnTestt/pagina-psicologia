@@ -95,16 +95,16 @@ header a:hover {
 }
 .rodape-inicial {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: blueviolet;
     max-height: 80px;
-    padding: 20px;
+    padding: 10px;
     color: white;
     font-size: 18px;
 }
 
 .img-celebro{
-    height: 60px;
+    height: 55px;
 }
 
 #terapia {
@@ -208,3 +208,34 @@ font-size: 17px;
     display: flex;
 }
 
+@media (max-width:992px) {
+    .container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    }
+    header {
+    flex-direction: column;
+    margin: auto; 
+    display: flex;
+    }
+    .itens-principal{
+    margin: auto;
+    margin-top: 50px;
+    }
+    .text-terapia img, .itens-principal img{
+    display: none;
+    }
+    .rodape-inicial{
+    min-height: 100px;
+    font-size: 15px;
+    }
+    .text-terapia{
+    margin: auto;
+    margin-top: 50px;
+    }
+    .text-terapia p, h3{
+    text-align: center;
+    }
+    }
+    
